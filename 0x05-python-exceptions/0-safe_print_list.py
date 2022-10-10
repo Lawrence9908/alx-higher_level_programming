@@ -1,8 +1,12 @@
 #!/usr/bin/python3
 
 def safe_print_list(my_list=[], x=0):
-    try:
-        for item in range(x):
-            print(item, end='')
-    except:
-        print("Out of Index Error")
+    count = 0;
+    for item in range(x):
+        try:
+            print("{}".format(item), end='')
+            count +=1
+        except IndexError:
+            break
+        print("")
+    return (count)
