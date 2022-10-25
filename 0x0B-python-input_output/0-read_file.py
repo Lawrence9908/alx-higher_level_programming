@@ -2,7 +2,7 @@
 
 def read_file(filename=""):
     """
-    Python function to read the content of the file into stdout
+    Python function to read the content of the file into stdout.
     """
 
     with open(filename, encoding="utf-8") as my_content:
