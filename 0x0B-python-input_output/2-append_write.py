@@ -2,6 +2,8 @@
 """Defines append write function."""
 
 #!/usr/bin/python3
+
+
 """Defines append write function."""
 
 def append_write(filename="", text=""):
