@@ -2,11 +2,17 @@
 """module that give access to python json function"""
 import json
 
-def to_json_string(my_lsit):
+"""Defiens a String to json function."""
+
+def to_json_string(my_list):
     """
     The function return the json representation
-    of an object string
+    of a object string
+
+    Args:
+        my_list (str): The list of strings.
     
-    return: json()
+    Returns:
+        String in JSON format
     """
-    return json(my_lsit)
+    return json.dumps(my_list)
