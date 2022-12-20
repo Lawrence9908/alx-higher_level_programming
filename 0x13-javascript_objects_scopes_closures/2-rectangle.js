@@ -1,9 +1,11 @@
 #!/usr/bin/node
-class Rectange{
+
+class Rectangle{
     constructor(w, h){
         if(w > 0 && h > 0){
-            this.weight = w;
+            this.width = w;
             this.height = h;
         }
     }
 };
+module.exports = Ractangle;
