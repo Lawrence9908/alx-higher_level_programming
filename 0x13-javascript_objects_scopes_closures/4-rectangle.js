@@ -7,8 +7,9 @@ class Rectangle{
         }
     }
     print(){
-        for(let col = 0; col <= this.height; col++){
-            for (let row = 0; row <=this.width; row++){
+        let col, row;
+        for(col = 0; col <= this.height; col++){
+            for (row = 0; row <=this.width; row++){
                 console.log("x");
             }
         }
