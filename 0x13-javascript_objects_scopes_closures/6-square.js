@@ -1,9 +1,9 @@
 #!/usr/bin/node
-
 class Square extends Rectangle{
     charPrint(c){
         if (c == undefined){
-            this.charPrint()
+            this.print();
         }
     }
-}
+};
+module.exports = Square;

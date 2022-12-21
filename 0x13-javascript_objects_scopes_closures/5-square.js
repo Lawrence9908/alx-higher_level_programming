@@ -3,4 +3,5 @@ class Square extends Rectange{
     constructor(size){
         super(size, size);
     }
-}
+};
+module.exports = Square;
