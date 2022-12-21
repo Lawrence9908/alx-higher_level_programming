@@ -9,7 +9,7 @@ class Rectange{
     print(){
         for(var row = 0; row <= this.width; row++){
             for (var col = 0; col <=this.height; col++){
-                console.log("x");
+                console.log("X");
             }
         }
     }
