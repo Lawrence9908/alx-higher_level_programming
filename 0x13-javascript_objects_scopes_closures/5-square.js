@@ -1,5 +1,5 @@
 #!/usr/bin/node
-class Square extends Rectange{
+class Square extends Rectangle{
     constructor(size){
         super(size, size);
     }
